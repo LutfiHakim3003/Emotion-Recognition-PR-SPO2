@@ -1,0 +1,16 @@
+sig1 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\SPO2_baseline.txt');
+sig2 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\SPO2_senang.txt');
+sig3 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\SPO2_sedih.txt');
+sig4 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\SPO2_marah.txt');
+sig5 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\PR_baseline.txt');
+sig6 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\PR_senang.txt');
+sig7 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\PR_sedih.txt');
+sig8 = load('D:\STUDY\2. Master of Telematics\THESIS\Thesisku\DATA PENELITIAN\Data Mentah\31. SULIKAH_$\PR_marah.txt');
+entropi1 = SampleEntropy(sig1,2,0.2,1)
+entropi2 = SampleEntropy(sig2,2,0.2,1)
+entropi3 = SampleEntropy(sig3,2,0.2,1)
+entropi4 = SampleEntropy(sig4,2,0.2,1)
+entropi5 = SampleEntropy(sig5,2,0.2,1)
+entropi6 = SampleEntropy(sig6,2,0.2,1)
+entropi7 = SampleEntropy(sig7,2,0.2,1)
+entropi8 = SampleEntropy(sig8,2,0.2,1)
