@@ -1,2 +1,0 @@
-# Tugas-Akhir
-Tugas Akhir
